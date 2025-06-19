@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1"class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#education" style="--i:3">Education</a>
+            <a href="#skills" style="--i:4">Skills</a>
+            <a href="#project" style="--i:5">Projects</a>
+            <a href="#contact" style="--i:6">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello It's Me </h3>
+            <h1>Anil</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I am Student of GGNIMT and Now I am Pursuing in MCA and graduated in BCA.</p>
+       
+        <div class="home-sci">
+            <a href="https://www.facebook.com/profile.php?id=100062721377691&mibextid=9R9pXO" target="_main" style="--i:7"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/its_anil.10?igsh=MTJnajcyMWRmaXY2bQ==" target="_main" style="--i:8"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/aniljoiya" target="_main" style="--i:9"><i class='bx bxl-github'></i></a>
+            <a href="https://x.com/Anil_joiya12?t=ACvvWkROwQ7xA4IJHM8ssA&s=09" target="_main" style="--i:10"><i class='bx bxl-twitter'></i></a>
+        </div>
+    
+        <Button class="btn-box" id="moreAboutMeBtn">More About Me</Button>
+
+        <div class="popup" id="popup">
+            <div class="popup-content">
+              <span class="close-btn" id="closePopup">&times;</span>
+              <h2>About Me</h2>
+              <p>I am a dedicated and creative Frontend Developer with a passion for crafting interactive and visually appealing user interfaces. Proficient in HTML, CSS, and JavaScript, I specialize in translating design concepts into seamless and responsive web experiences. My attention to detail and commitment to delivering user-friendly solutions contribute to creating engaging websites that meet both aesthetic and functional requirements. Always eager to stay updated on the latest industry trends, I strive to enhance user experiences through innovative and accessible frontend development practices.</p>
+            </div>
+        </div>
+    </div>
+    <span class="home-imghover"></span>
+    </section>
+    <!-- About part Start -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="photo4.png">
+        </div>
+
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Frontend Developer!</h4>
+            <p>I am a dedicated and creative Frontend Developer with a passion for crafting interactive and visually appealing user interfaces. 
+                Proficient in HTML, CSS, and JavaScript, I specialize in translating design concepts into seamless and responsive web experiences. 
+                My attention to detail and commitment to delivering user-friendly solutions contribute to creating engaging websites that meet both aesthetic 
+                and functional requirements. Always eager to stay updated on the latest industry trends, I strive to enhance user experiences through 
+                innovative and accessible frontend development practices....</p>
+            
+                <a href="CV.pdf" download class="btn-box">Download CV</a>
+        
+    </section>
+    <!--Education Part Start-->
+    <section>
+        <div class="education" id="education">
+            <div class="container">
+                <h1 class="sub-title educationmeasure">My <span>Education</span></h1>
+                <div class="education-list">
+                    <div>
+                        <i class='bx bx-book-reader' style="color: #00eeff"></i>
+                        <h2>10th Pass from</h2>
+                        <p>S.D.S Model Hight School in 2020 which is situated at Ludhiana, Punjab and I got B+ grade.
+                        </p>
+                        <a href="10th.pdf" class="read">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-book-reader' style="color: #00eeff"></i>
+                        <h2>12th Pass from</h2>
+                        <p>R.S Model Sen.Sec.School in 2022 which is situated at Ludhiana, Punjab and I got 93.4%.
+                        </p>
+                        <a href="12th.pdf" class="read">Learn more</a>
+                    </div>
+                    <div>
+                        <i class='bx bx-book-reader' style="color: #00eeff"></i>
+                        <h2>Graduate in BCA from</h2>
+                        <p>Gujaranwala Guru Nanak Institute of Management and Technoloy which is situated at Ghumar Mandi, Civil Lines, Ludhiana, Punjab.
+                        </p>
+                        <a href="bca sem2.pdf" class="read">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Skills Part Start-->
+    <h1 class="sub-title skillmeasure" id="skills">My <span>Skills</span></h1>
+
+    <section class="sk">
+        <div class="container1">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="technical-bars">
+            <div class="bar"><i style="color: #c95d2e" class='bx bxl-html5'></i>
+                <div class="info">
+                    <span>HTML</span>
+                </div>
+                <div class="progress-line html">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i style="color: #147bbc" class='bx bxl-css3'></i>
+                <div class="info">
+                    <span>CSS</span>
+                </div>
+                <div class="progress-line css">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i style="color: #b0bc1e" class='bx bxl-javascript'></i>
+                <div class="info">
+                    <span>javascript</span>
+                </div>
+                <div class="progress-line javascript">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i style="color: #c9832e" class='bx bxl-java'></i>
+                <div class="info">
+                    <span>Java</span>
+                </div>
+                <div class="progress-line java">
+                    <span></span>
+                </div>
+            </div>
+            <div class="bar"><i style="color: #2cff07" class='bx bxl-nodejs'></i>
+                <div class="info">
+                    <span>NodeJs</span>
+                </div>
+                <div class="progress-line node">
+                    <span></span>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="text">Creativity</div>
+                </div>
+
+                <div class="radial-bar">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">50%</div>
+                <div class="text">Communication</div>
+                </div>
+
+                <div class="radial-bar">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="text">Problem Solving</div>
+                </div>
+
+                <div class="radial-bar">
+
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="text">Decision Maker</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Start of Projects Part-->
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="food.jpg">
+                        <div class="layer">
+                            <h5>Online Food Ordering System</h5>
+                            <p>It is Made with using HTML, CSS, JavaScript, PHP and MySQL.</p>
+
+                            <a href="https://github.com/aniljoiya/Online-Food-Ordering-System.git" target="_main" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: black;"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <img src="hospital.jpg">
+                        <div class="layer">
+                            <h5>Hospital Management System</h5>
+                            <p>It is Made with using HTML, CSS, JavaScript, PHP and MySQL.</p>
+
+                            <a href="https://github.com/aniljoiya/Hospital-Management-System.git" target="_main" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: black;"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <img src="weather.jpg">
+                        <div class="layer">
+                            <h5>Weather App</h5>
+                            <p>It is Made with using HTML, CSS and JavaScript.</p>
+
+                            <a href="https://github.com/aniljoiya/Weather-App.git" target="_main" style="text-decoration: none;"><i class="fa-brands fa-github" style="color: black;"></i></a>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--Contact Part Start-->
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me</span></h2>
+        <h4>Let's Work Together</h4>
+        <p>Your digital storefront deserves the best. Our frontend services are tailored to enhance your website's aesthetics, optimize performance, and deliver an unparalleled user interface.</p>
+        <div class="contact-list">
+            <li><i class='bx bxs-send bx-flip-vertical'></i> aniljoya268@gmail.com</li>
+            <li><i class='bx bxs-phone'></i> 6283515028</li>
+        </div>
+        <div class="contact-icon">
+            <a href="https://www.facebook.com/profile.php?id=100062721377691&mibextid=9R9pXO" target="_main" style="--i:1"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/its_anil.10?igsh=MTJnajcyMWRmaXY2bQ==" target="_main" style="--i:2"><i class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/aniljoiya" target="_main" style="--i:3"><i class='bx bxl-github'></i></a>
+            <a href="https://x.com/Anil_joiya12?t=ACvvWkROwQ7xA4IJHM8ssA&s=09" target="_main" style="--i:4"><i class='bx bxl-twitter'></i></a>
+        </div>
+    </div> 
+
+    <div class="contact-form">
+        <form action="">
+            <input type="" placeholder="Enter Your Name" required>
+            <input type="email" placeholder="Enter Your Email" required>
+
+            <input type="" placeholder="Enter Your Subject">
+            <textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+
+            <input type="submit" value="submit" class="send" style="margin-top: 20px;">
+        </form>
+    </div>
+</section>
+
+<div class="last-text">
+    <p>Developed by Anil © 2024 </p>
+</div>
+<a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a>
+
+
+<script src="https://kit.fontawesome.com/c36c452cdd.js" crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>

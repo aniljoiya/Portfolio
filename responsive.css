@@ -1,0 +1,166 @@
+/* Responsive Design for Mobile Devices */
+@media (max-width: 768px) {
+
+    .header {
+        padding: 15px 5%;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .navbar a {
+        font-size: 18px;
+        margin: 10px 0;
+    }
+
+    .home {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 100px 5% 0;
+        height: auto;
+        text-align: left;
+        background-color: #081b29;
+        background: none;
+    }
+
+    .home-content h1 {
+        font-size: 36px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+    }
+
+    .btn-box {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .home-sci a {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+
+    /*about*/
+
+    .about {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 0 5%;
+        
+    }
+
+    .about-img img {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .about-text h2 {
+        margin-top: -120px;
+        font-size: 40px;
+    }
+
+    .about-text h4, .about-text p {
+        font-size: 16px;
+    }
+
+/*  education */
+
+    .container {
+        padding: 30px 5%;
+        height: auto;
+    }
+
+    .sub-title {
+        font-size: 40px;
+        padding-bottom: 30px;
+    }
+
+    .education-list {
+        grid-template-columns: 1fr;
+    }
+
+    .contact {
+        grid-template-columns: 1fr;
+        padding: 0 5%;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+
+    .contact-text h4,
+    .contact-text p,
+    .contact-list li {
+        font-size: 16px;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* skills */
+    .container1 {
+        width: 100%;
+        padding: 30px 5%;
+        margin: 0;
+    }
+
+    #skills{
+        margin-top: -100px;
+    }
+
+    .sk {
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* project */
+    #project{
+        margin-top: -50px;
+        margin-left: 20px;
+    }
+
+    #project h2{
+        font-size: 50px;
+    }
+
+    .portfolio-content {
+        margin-top: -80px;
+        grid-template-columns: 1fr;
+        
+    }
+
+    .row img {
+        padding-left: 0;
+        width: 100%;
+        margin: 20px;
+    }
+
+    .layer {
+        left: 0;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .send{
+        margin-top: 10px;
+    }
+
+   
+}
