@@ -28,4 +28,22 @@ window.addEventListener('click', (event) => {
   }
 });
 
+// form 
+const form = document.querySelector("form");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
 
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: data,
+    });
+
+    const result = await response.json();
+    if (result.success) {
+      alert("Message sent successfully!");
+      form.reset();
+    } else {
+      alert("Failed to send message.");
+    }
+  });
